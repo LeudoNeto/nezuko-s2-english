@@ -84,7 +84,7 @@ class funny(commands.Cog):
     embed = discord.Embed(description = f"{love_messsage}", color = 0xff9999)
     await ctx.reply(embed = embed, mention_author=False)
 
-  #Usado de https://github.com/iiSakuu/Marshmallow
+  #From https://github.com/iiSakuu/Marshmallow
   @commands.command(aliases=['shipname'])
   async def ship(self, ctx, member : discord.Member, member2 : discord.Member = None):
         """
