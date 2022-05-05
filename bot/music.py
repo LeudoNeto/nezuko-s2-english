@@ -642,7 +642,7 @@ class music(commands.Cog):
             
             nameandaliases = ["play","p"]
             nameandaliases.remove(ctx.invoked_with)
-            em.add_field(name="Alternativo:", value=f'{bot_prefix}{nameandaliases[0]}',inline=False)
+            em.add_field(name="Alternative:", value=f'{bot_prefix}{nameandaliases[0]}',inline=False)
 
             await ctx.send(embed=em)
 
