@@ -147,7 +147,7 @@ class Song:
                  .set_thumbnail(url=self.source.thumbnail)
                  .set_footer(text=f"Requested by {self.requester.name}", icon_url=f"{self.requester.avatar}"))
         em.set_author(
-            name=f" Tocando agora: ",
+            name=f" Now playing: ",
             icon_url = "https://images-ext-2.discordapp.net/external/wCoxd5EKV3CrmZ6HlEaIS0F-Ggsdk9MyzoLFRVFefsY/https/images-ext-1.discordapp.net/external/DkPCBVBHBDJC8xHHCF2G7-rJXnTwj_qs78udThL8Cy0/%253Fv%253D1/https/cdn.discordapp.com/emojis/859459305152708630.gif")
         return em
 

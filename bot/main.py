@@ -26,4 +26,4 @@ async def on_ready():
 async def on_message(message):
     print(f'Mensagem de {message.author}: {message.content}')
 
-bot.run('seu-token-aqui') #replace seu-token-aqui with yout bot token (If u don't know how to get it, read the README.md)
+bot.run('your-token-here') #replace your-token-here with yout bot token (If u don't know how to get it, read the README.md)
