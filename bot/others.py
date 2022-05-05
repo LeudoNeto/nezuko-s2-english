@@ -42,7 +42,7 @@ class others(commands.Cog):
         """
         await ctx.send("You cann review my source at: https://github.com/LeudoNeto/nezuko-s2-english")
   
-  @commands.command(name="invite",aliases = ['convidar'])
+  @commands.command(name="invite")
   async def invite(self, ctx: commands.Context):
       """
       URL for inviting me to a server
